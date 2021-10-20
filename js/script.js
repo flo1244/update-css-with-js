@@ -15,7 +15,7 @@ const handleUpdate = function() {
 //inputs.forEach(input => input.addEventListener("mouseover", handleUpdate));	
 
 	
-// Loops over each inputs
+// Loops through each inputs blur, spacing, base color.
 inputs.forEach(function(input){
 	input.addEventListener("change", handleUpdate);
 	input.addEventListener("mousemove", handleUpdate);
